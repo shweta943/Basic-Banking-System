@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.ul1{
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+    
+}
+.text{
+    font-size: 45px;
+    text-shadow: 2px 2px 5px red;
+    
+}
+
+.text {
+    
+    
+    text-align: center;
+    animation: animate 
+        1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.bgcolor{
+    
+    height: 60px;
+}
+.footer{
+    background: purple;
+    color: white;
+    height: 100px;
+}
+.list2{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.list3{
+    float: left;
+}
+.list-center{
+    align-items: center;
+    justify-content: center;
+}
+.link1{
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.link2{
+    float: right;
+}
+.link3{
+    text-decoration: underline;
+}
+.button_style{
+    border-radius: 40px;
+}
+.button_style:hover{
+    cursor: pointer;
+}
+.container { 
+    height: 200px;
+    position: relative;
+     
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  
+.mybackground{
+       background-color: blue;
+       height: 300px;
+       justify-content: center;
+  }
+
+  .buttoncenter{
+      font-size: 70px;
+  }
